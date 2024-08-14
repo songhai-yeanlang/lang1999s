@@ -1,94 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Songhai Yeanlang</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
-        body{
-            font-family: "Kantumruy Pro", sans-serif;  
-        }
-        h1{
-            text-align: center;
-            font-weight: 500;
-            font-size: 60px;
-            margin-bottom: 10px;
-            /* text-decoration: underline; */
-        }
-        table{
-            border: 5px solid black;
-            border-radius: 5px;
-            margin: auto;
-        }
-        table tr td{
-            border-radius: 5px;
-            border: 3px solid #000000;
-            font-size: 30px;
-            font-weight: 600;
-            text-align: center;
-            transition: 0.4s;
-        }
-        table tr td:hover{
-            border: 3px solid #EEEEEE;
-            cursor: pointer;
-        }
-    </style>
-    
-</head>
-<body>
-    <h1>TABLE</h1>
-    <table width="1000px" height="500px" cellspacing="10px">
-       <!-- row1 -->
-        <tr>
-            <td colspan="3" bgcolor="#F8EDE3">1</td>
-            <!-- <td>2</td>
-            <td>3</td> -->
-            <td rowspan="3" bgcolor="#E2BFD9">4</td>
-            <td colspan="2" bgcolor="#C8A1E0">5</td>
-            <!-- <td>6</td> -->
-            <td rowspan="2" bgcolor="#B5CFB7">7</td>
-        </tr>
-        <!-- row2 -->
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <!-- <td>4</td> -->
-            <td>5</td>
-            <td>6</td>
-            <!-- <td>7</td> -->
-        </tr>
-        <!-- row3 -->
-        <tr>
-            <td colspan="3" bgcolor="#CCD5AE">1</td>
-            <!-- <td>2</td>
-            <td>3</td> -->
-            <!-- <td>4</td> -->
-            <td colspan="2" bgcolor="#F0A8D0">5</td>
-            <!-- <td>6</td> -->
-            <td>7</td>
-        </tr>
-        <!-- row4 -->
-        <tr>
-            <td colspan="7" bgcolor="#7FA1C3">1</td>
-            <!-- <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td> -->
-        </tr>
-        <!-- row5 -->
-        <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>7</td>
-        </tr>
-    </table>
-</body>
+    <!-- CSS Loin -->
+    <link rel="stylesheet" href="css/sign_in.css" />
+    <!-- Fontawsome -->
+    <script
+      src="https://kit.fontawesome.com/9735169392.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body> 
+    <form action="">
+      <h1>Sign in</h1>
+      <!-- logo loin  -->
+      <div class="icon_loin">
+        <i class="fa-brands fa-facebook icon_fontawsome"></i>
+        <i class="fa-brands fa-google icon_fontawsome"></i>
+        <i class="fa-solid fa-user icon_fontawsome"></i>
+      </div>
+      <!-- logo loin  end-->
+
+      <p>or use your account</p>
+
+      <!-- input box of email -->
+      <div class="input_box">
+        <div class="box_email box_email_password">
+          <input
+            type="email"
+            placeholder="Email"
+            class="email email_password"
+          />
+          <i class="fa-regular fa-envelope"></i>
+        </div>
+        <div class="box_password box_email_password">    
+          <input
+            type="password"
+            placeholder="Password"
+            class="password email_password"
+          />
+          <i class="fa-regular fa-eye-slash"></i>
+        </div>
+      </div>
+       <!-- input box of email -->
+
+      <!-- txt_link -->
+      <div class="txt_link">
+        <div class="checkbox"><input type="checkbox" /> Remember</div>
+        <a href="" class="forget_password">Forget Password</a>
+      </div>
+      <!-- txt_link end -->
+
+      <!-- btn loin start -->
+      <div class="btn_sign_in">
+        <a href="">Sign in</a>
+      </div>
+      <!-- btn loin end -->
+
+      <div class="box_sign_up">
+        <p>
+          Don't have an account?
+          <a href="pages/sign up.html" target="_parent">Sign up now !</a>
+        </p>
+      </div>
+    </form>
+  </body>
 </html>

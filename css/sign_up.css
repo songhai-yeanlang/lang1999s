@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Kantumruy Pro", sans-serif;
+  background-image: url(../images/bg_image.jpg);
+  background-size: cover;
+}
+form {
+  color: white;
+  width: 420px;
+  background-color: #0000007e;
+  backdrop-filter: blur(2.5px);
+  height: 500px;
+  padding: 40px 15px 40px 15px;
+  border-radius: 10px;
+  border: 2px solid #ffffff9d;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.65);
+}
+h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #eb5b00;
+}
+.sign_up_box {
+  width: 100%;
+}
+/* name start */
+.sign_up_box .name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.sign_up_box .name .fist_name {
+  position: relative;
+}
+.sign_up_box .name .last_name {
+  position: relative;
+}
+.sign_up_box .name input {
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 0px 20px 0px 50px;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  outline: none;
+}
+.sign_up_box .name .i_position i {
+  position: absolute;
+  top: 30%;
+  left: 20px;
+}
+
+.sign_up_box .name input::placeholder {
+  color: white;
+}
+/* name end */
+
+/* gamil acc start */
+
+.gamil_acc .box_email_password .email_password {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  outline: none;
+  border: 1px solid white;
+  padding: 0px 60px 0px 20px;
+  color: white;
+  border-radius: 10px;
+}
+.gamil_acc .box_email_password .email_password::placeholder {
+  color: white;
+}
+.gamil_acc .box_email {
+  margin-bottom: 20px;
+  position: relative;
+}
+.gamil_acc .box_email i {
+  position: absolute;
+  top: 35%;
+  right: 30px;
+}
+/* box_password */
+.gamil_acc .box_password {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.gamil_acc .box_password i {
+  position: absolute;
+  top: 35%;
+  right: 30px;
+}
+/* Gamil acc end */
+
+/* checkbox Start */
+.checkbox {
+ 
+  display: flex;
+  justify-content: center;
+}
+.checkbox input:hover{
+  cursor: pointer;
+}
+.checkbox p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-left: 5px;
+  color: white;
+}
+.checkbox a{
+  /* text-decoration: none; */
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  transition: 0.3s ease-in-out all;
+
+}
+.checkbox a:hover{
+  color: white;
+}
+
+/* btn Sign up start */
+.btn_sign_up{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.btn_sign_up a{
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 50px;
+  background-color: #ffffffc4;
+  border: 1px solid white;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out all;
+}
+.btn_sign_up a:hover{
+  background-color: #00000048;
+  color: #EB5B00;
+}
+
+/* box sign in start */
+.box_sign_in{
+  margin-top: 25px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.box_sign_in p{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+
+}
+.box_sign_in p a{
+  color: #EB5B00;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s ease-in-out all;
+}
