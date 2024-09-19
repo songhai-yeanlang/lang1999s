@@ -4,67 +4,143 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Songhai Yeanlang</title>
-    <!-- CSS Loin -->
-    <link rel="stylesheet" href="css/sign_in.css" />
-    <!-- Fontawsome -->
-    <script
-      src="https://kit.fontawesome.com/9735169392.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body> 
-    <form action="">
-      <h1>Sign in</h1>
-      <!-- logo loin  -->
-      <div class="icon_loin">
-        <i class="fa-brands fa-facebook icon_fontawsome"></i>
-        <i class="fa-brands fa-google icon_fontawsome"></i>
-        <i class="fa-solid fa-user icon_fontawsome"></i>
-      </div>
-      <!-- logo loin  end-->
+  <body>
+    <div class="container">
+      <div class="row d-flex">
+        <div class="col-8">
+          <!-- box1 -->
+          <div class="box1">
+            <img src="images/image 1.jpg" alt="" />
+            <div class="txt_box1">
+              <h1>All photographs are accurate</h1>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type and scrambled it to make a type specimen book. It has
+                survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was
+                popularised in the 1960s with the release of Letraset sheets
+                containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of
+                Lorem Ipsum.
+              </p>
+            </div>
+          </div>
+          <!-- Box2 -->
+          <div class="box2">
+            <h1>Comments 3</h1>
+            <!-- row1 -->
+            <div class="row d-flex_jc-space-between_ai-center">
+              <div class="col profile_image">
+                <img src="images/profile 1.png" alt="" />
+              </div>
 
-      <p>or use your account</p>
+              <div class="col txt_profile">
+                <h3>Gigi Hadid</h3>
+                <p>
+                  Why are there so many tutorials on how to decouple WordPress?
+                  how fast and easy it is to get it running (and keep it
+                  running!) and its massive...
+                </p>
+                <span><a href="">Mar 09 2018</a></span>
+                <span><a href="">Reply</a></span>
+              </div>
+            </div>
+            <!-- row2 -->
+            <div class="row d-flex_jc-space-between_ai-center">
+              <div class="col profile_image">
+                <img src="images/profile 2.png" alt="" />
+              </div>
 
-      <!-- input box of email -->
-      <div class="input_box">
-        <div class="box_email box_email_password">
-          <input
-            type="email"
-            placeholder="Email"
-            class="email email_password"
-          />
-          <i class="fa-regular fa-envelope"></i>
+              <div class="col txt_profile">
+                <h3>Christian Louboutin</h3>
+                <p>
+                  Great tutorial but few issues with it? If i try open post i
+                  get following errors. Please can you help me?
+                </p>
+                <span><a href="">Mar 09 2018</a></span>
+                <span><a href="">Reply</a></span>
+              </div>
+            </div>
+            <!-- row3 -->
+            <div class="row d-flex_jc-space-between_ai-center">
+              <div class="col profile_image">
+                <img src="images/profile 3.png" alt="" />
+              </div>
+
+              <div class="col txt_profile">
+                <h3>Kendall Jenner</h3>
+                <p>
+                  Very nice and informative article. In all the years I've done
+                  small and side-projects as a freelancer, I've ran into a few
+                  problems here and there.
+                </p>
+                <span><a href="">Mar 09 2018</a></span>
+                <span><a href="">Reply</a></span>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="box_password box_email_password">    
-          <input
-            type="password"
-            placeholder="Password"
-            class="password email_password"
-          />
-          <i class="fa-regular fa-eye-slash"></i>
+
+        <!-- Col-4 -->
+        <div class="col-4">
+          <!-- box1 -->
+          <div class="box1">
+            <form action="">
+              <input type="search" placeholder="Search..." />
+            </form>
+          </div>
+          <!-- box2 -->
+          <div class="box2">
+            <h1>Categories Clouds</h1>
+            <div class="categories_clouds">
+              <a href="#">eCommerce</a>
+              <a href="#">Microsoft Technologies</a>
+            </div>
+            <div class="categories_clouds">
+              <a href="#">Creative UX</a>
+              <a href="#">Wordpress</a>
+              <a href="#">Angular JS</a>
+            </div>
+            <div class="categories_clouds">
+              <a href="#">Enterprise Mobility</a>
+              <a href="#">Website Design</a>
+            </div>
+            <div class="categories_clouds">
+              <a href="#">HTML5</a>
+              <a href="#">Infographics</a>
+            </div>
+            <div class="categories_clouds">
+              <a href="#">Wordpress Development</a>
+            </div>
+          </div>
+
+          <!-- box3 -->
+          <div class="box3">
+            <h1>Popular Posts</h1>
+            <div class="card">
+              <p>
+                Apple Introduces Search Ads Basic <br />
+                jun 22, 2018
+              </p>
+              <img src="images/image 2.jpg" alt="" />
+            </div>
+
+            <div class="card card_2">
+              <p>new rules, more cars, more races <br>jun 8, 2018</p>
+              <img src="images/image 3.jpg" alt="" />
+            </div>
+          </div>
         </div>
       </div>
-       <!-- input box of email -->
-
-      <!-- txt_link -->
-      <div class="txt_link">
-        <div class="checkbox"><input type="checkbox" /> Remember</div>
-        <a href="" class="forget_password">Forget Password</a>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <h5>ID : 1001</h5>
       </div>
-      <!-- txt_link end -->
-
-      <!-- btn loin start -->
-      <div class="btn_sign_in">
-        <a href="">Sign in</a>
-      </div>
-      <!-- btn loin end -->
-
-      <div class="box_sign_up">
-        <p>
-          Don't have an account?
-          <a href="pages/sign up.html" target="_parent">Sign up now !</a>
-        </p>
-      </div>
-    </form>
+    </footer>
   </body>
 </html>
